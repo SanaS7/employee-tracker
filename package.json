@@ -1,25 +1,26 @@
 {
   "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "",
+  "description": "As a business owner I want to be able to view and manage the departments, roles, and employees in my company so that I can organize and plan my business",
   "main": "index.js",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "inquirer": "^8.1.0",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {},
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SanaS7/employee-tracker.git"
+    "url": "git+https://github.com/sanas7/employee-tracker.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SanaS7/employee-tracker/issues"
+    "url": "https://github.com/sanas7/employee-tracker/issues"
   },
-  "homepage": "https://github.com/SanaS7/employee-tracker#readme",
-  "dependencies": {
-    "inquirer": "^9.2.6",
-    "mysql2": "^3.3.3"
-  }
+  "homepage": "https://github.com/sanas7/employee-tracker#readme"
 }

@@ -1,28 +1,28 @@
-INSERT INTO department (dpt_name)
+INSERT INTO departments (name)
 VALUES
-    ('Accounting'),
-    ('Marketing'),
-    ('Sales'),
-    ('Information Technology'),
-    ('Human Resources');
+('Sales'),
+('Engineering'),
+('Finance'),
+('Legal'),
+('Human Resources');
 
-INSERT INTO emp_role (title, salary, dpt_id)
+INSERT INTO roles (title, salary, department_id)
 VALUES
-  ('Sales Lead', '75000', 3),
-  ('Sales Associate', '50000', 3),
-  ('Tech Lead', '160000', 4),
-  ('Junior Engineer', '70000', 4),
-  ('Account Manager', '70000', 1),
-  ('Accountant', '80000', 1),
-  ('Payroll Specialist', '60000', 5),
+('Salesperson', 80000, 1),
+('Sales Lead', 100000, 1),
+('Engineer', 120000, 2),
+('Lead Engineer', 150000, 2),
+('Accountant', 125000, 3),
+('Chief Financial Officer', 300000, 3),
+('Lawyer', 190000, 4),
+('Legal Team Lead', 250000, 4),
+('Human Resources Employee', 80000, 5),
+('Human Resources Director', 100000, 5);
 
-    
-INSERT INTO employee (first_name, last_name, role_id, mgr_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES
-  ('Hassan', 'Tahir', 2, NULL),
-  ('Hizar', 'Sajjad', 1, NULL),
-  ('Anas', 'Abrar', 4, 2),
-  ('Waqas', 'Ahmad', 2, 2),
-  ('Sheraz', 'Ahmad', 3, 3),
-  ('Hamza', 'Syed', 6, 3),
-  ('Shumile', 'Mirza', 8, 4);
+('Hassan', 'Tahir', 1, 2),
+('Hizar', 'Sajjad', 2, null),
+('Anas', 'Abrar', 3, 4),
+('Waqas', 'Ahmad', 4, null),
+('Sheraz', 'Ahmad', 5, 6),

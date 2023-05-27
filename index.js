@@ -1,3 +1,8 @@
-const { mainMenu } = require("./lib/menu/menu");
+const db = require('./db/connection.js');
+const mainMenu = require('./lib/prompt.js');
+
+db.connect(err => {
+    if (err) throw err;
+})
 
 mainMenu();
