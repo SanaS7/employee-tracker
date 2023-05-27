@@ -25,4 +25,4 @@ VALUES
 ('Hizar', 'Sajjad', 2, null),
 ('Anas', 'Abrar', 3, 4),
 ('Waqas', 'Ahmad', 4, null),
-('Sheraz', 'Ahmad', 5, 6),
+('Sheraz', 'Ahmad', 5, 6);
