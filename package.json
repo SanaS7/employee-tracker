@@ -4,9 +4,12 @@
   "description": "As a business owner I want to be able to view and manage the departments, roles, and employees in my company so that I can organize and plan my business",
   "main": "index.js",
   "dependencies": {
+    "boxen": "^7.0.2",
     "console.table": "^0.10.0",
-    "inquirer": "^8.1.0",
-    "mysql2": "^2.2.5"
+    "figlet": "^1.6.0",
+    "inquirer": "^8.2.4",
+    "mysql2": "^2.3.3",
+    "validator": "^13.9.0"
   },
   "devDependencies": {},
   "scripts": {
