@@ -27,6 +27,10 @@ As a business owner, it would be helpful to be able to view and manage the depar
 * Inquirer
 * JavaScript
 
+## File / Folder Structure
+* DB folder contains connection.js [contains code to establish connection with MySQL server], tables.sql [Queries to create database schema], seeds.sql [queries to enter dummy data], db.sql [query to create database]
+* Index.js [contains all the functional code]
+
 ## Installation
 1. Hit the "Code" button within this GitHub repo to copy link.
 2. Use the command "git clone *paste link here*".
@@ -44,5 +48,6 @@ As a business owner, it would be helpful to be able to view and manage the depar
     * 'source db/db.sql'
     * 'source db/table.sql'
     * 'source db/seeds.sql'
+
 ## Demonstration
 Watch this [demo](#Link).
